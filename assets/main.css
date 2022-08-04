@@ -174,7 +174,7 @@ body {
   top: 0;
   left: 0;
   position: absolute;
-  background-image: url(http://localhost/nexergy/assets/images/BG-Home.png);
+  background-image: url(https://rahatfci.github.io/nexergy-website/assets/images/BG-Home.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -253,7 +253,6 @@ body {
   position: relative;
   height: 280px;
   transition: all .6s ease-in-out;
-  padding: 66px 75px 40px 50px;
   text-align: left;
   border-style: solid;
   border-width: 0px 0px 0px 2px;
@@ -328,7 +327,6 @@ body {
 }
 
 .learn-clean-energy .content:hover {
-  padding: 66px 75px 40px 50px;
   background-color: #F4F4FF;
   transition: all .4s ease-in-out;
 }
@@ -440,7 +438,7 @@ body {
 
 .top-section {
   background-attachment: fixed;
-  background-image: url(http://localhost/nexergy/assets/images/nuno-marques-0GbrjL3vZF4-unsplash1.jpg);
+  background-image: url(https://rahatfci.github.io/nexergy-website/assets/images/nuno-marques-0GbrjL3vZF4-unsplash1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
