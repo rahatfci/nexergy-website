@@ -176,7 +176,7 @@ body {
   top: 0;
   left: 0;
   position: absolute;
-  background-image: url(http://localhost/nexergy/assets/images/BG-Home.png);
+  background-image: url(images/BG-Home.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -220,7 +220,7 @@ body {
   top: 0;
   left: 0;
   position: absolute;
-  background-image: url(http://localhost/nexergy/assets/images/BG-Home.png);
+  background-image: url(images/BG-Home.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -596,7 +596,7 @@ body {
 
 .top-section {
   background-attachment: fixed;
-  background-image: url(http://localhost/nexergy/assets/images/top-section-image.jpg);
+  background-image: url(images/top-section-image.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -813,7 +813,7 @@ body {
 
 .marketplace-top {
   background-color: #0020b2;
-  background-image: url(http://localhost/nexergy/assets/images/marketplace.jpg);
+  background-image: url(images/marketplace.jpg);
   background-position: center center;
   background-size: cover
 }
