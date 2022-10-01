@@ -166,6 +166,8 @@ body {
   border-radius: 0px 0px 100px 100px;
   position: relative;
   text-align: center;
+  margin: 60px 0px;
+  padding: 50px 0px;
 }
 
 .learn-clean-energy .header-background {
@@ -174,7 +176,7 @@ body {
   top: 0;
   left: 0;
   position: absolute;
-  background-image: url(https://rahatfci.github.io/nexergy-website/assets/images/BG-Home.png);
+  background-image: url(http://localhost/nexergy/assets/images/BG-Home.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -184,11 +186,6 @@ body {
 
 .learn-clean-energy img {
   width: 251px;
-}
-
-.learn-clean-energy .header {
-  margin: 60px 0px;
-  padding: 50px 0px;
 }
 
 .learn-clean-energy .header .s1 {
@@ -206,6 +203,44 @@ body {
   letter-spacing: -0.1px;
   font-weight: 300;
   font-family: "Epilogue", sans-serif;
+}
+
+.learn-about-solar .header {
+  background-color: #F4F4FF;
+  border-radius: 0px 0px 40px 40px;
+  position: relative;
+  text-align: center;
+  margin: 120px 50px -10px 50px;
+  padding: 100px 0px 60px 15px;
+}
+
+.learn-about-solar .header-background {
+  height: 75%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-image: url(http://localhost/nexergy/assets/images/BG-Home.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.05;
+  border-radius: 0px 0px 100px 100px
+}
+
+.learn-about-solar .header a {
+  color: #635DFF;
+  font-size: 20px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  float: left;
+  margin-left: 40px;
+  position: relative;
+  transition: .2s ease;
+}
+
+.learn-about-solar .header a:hover {
+  color: #5C636A;
 }
 
 .elegent-button {
@@ -348,13 +383,136 @@ body {
 .learn-clean-energy .bottom p {
   color: #292926;
   font-family: "Times New Roman", Sans-serif;
-  font-size: 2vw;
+  font-size: 22px;
   font-weight: 300;
   font-style: normal;
   text-decoration: none;
   line-height: 1.2em;
   letter-spacing: -1px;
   word-spacing: 2px;
+}
+
+.learn-about-solar .bottom {
+  margin: 50px auto;
+}
+
+.learn-about-solar .bottom p {
+  color: #292926;
+  font-family: "Times New Roman", Sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.2em;
+  letter-spacing: -1px;
+  word-spacing: 2px;
+}
+
+.solar-explained {
+  border-radius: 40px;
+  margin: 0px 50px;
+  padding: 50px 70px 20px 70px;
+  box-shadow: 0px 15px 50px 0px rgb(0 0 0 / 10%);
+}
+
+.solar-explained h1 {
+  margin-bottom: 50px;
+  letter-spacing: 1.5px;
+  font-size: 35px;
+  font-family: "Times New Roman";
+}
+
+.solar-explained p {
+  line-height: 35px;
+  word-spacing: 5px;
+  font-size: 19px;
+}
+
+.side-nav {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: #F4F4FF;
+  border-left: 3px solid #635DFF;
+  padding: 50px 50px 50px 0px;
+  position: sticky;
+  top: 75px;
+  box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 15%);
+  margin-top: 100px;
+}
+
+.side-nav .list-group-item {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: .75rem 1rem;
+}
+
+.side-nav a, li {
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1px;
+  background-color: transparent;
+  color: #55595c;
+  transition: .15s ease;
+}
+
+.side-nav .list-group-item-action:focus, .side-nav .list-group-item-action:hover {
+  z-index: 1;
+  color: white;
+  text-decoration: none;
+  background-color: #55595c;
+}
+
+.side-nav .inner-list .list-group-item {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: .6rem;
+  margin: 5px 0px;
+  white-space: nowrap;
+}
+
+.side-nav .inner-list a {
+  border: none;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: transparent;
+  color: #55595c;
+  transition: .15s ease;
+}
+
+.side-nav .inner-list .list-group-item-action:focus, .side-nav .inner-list .list-group-item-action:hover {
+  z-index: 1;
+  color: white;
+  text-decoration: none;
+  background-color: #55595c;
+}
+
+.side-nav-active {
+  background-color: #55595C !important;
+  color: white !important;
+}
+
+.exception {
+  transition: .15s ease;
+  background-color: transparent;
+  color: #55595C !important;
+  border-color: transparent;
+}
+
+.exception:hover a {
+  color: white !important;
+}
+
+.inner-list-active {
+  background-color: #55595C !important;
+  color: white !important;
+}
+
+.side-nav .inner-list {
+  padding-left: 15px;
+  padding-right: 10px;
+  display: none;
+  transition: .15s ease;
 }
 
 .how {
@@ -438,7 +596,7 @@ body {
 
 .top-section {
   background-attachment: fixed;
-  background-image: url(https://rahatfci.github.io/nexergy-website/assets/images/nuno-marques-0GbrjL3vZF4-unsplash1.jpg);
+  background-image: url(http://localhost/nexergy/assets/images/top-section-image.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -591,4 +749,99 @@ body {
 
 .iti {
   display: block !important;
+}
+
+.arrow-icon {
+  display: inline-block;
+  height: 20px;
+  float: right;
+  padding-top: 3px;
+  opacity: .7;
+}
+
+.solar-panel-system h1 {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.solar-panel-system p {
+  color: #727272;
+  letter-spacing: 1px;
+  line-height: 30px;
+  word-spacing: 1.5px;
+  font-size: 16px;
+}
+
+.solar-panel-system ul {
+  margin: 1.5em auto;
+}
+
+.solar-panel-system li {
+  font-size: 16px;
+  margin-left: 2rem;
+  color: #727272;
+  letter-spacing: 1px;
+  line-height: 30px;
+  word-spacing: 1.5px;
+  font-weight: normal;
+}
+
+.solar-component-list {
+  list-style: none;
+  padding: 0;
+}
+
+.solar-component-list li {
+  margin: 0;
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 60px;
+}
+
+.solar-component-list svg {
+  height: 110px;
+  width: 110px;
+  margin-right: 30px;
+  fill: #635DFF;
+}
+
+.solar-save-money li {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.marketplace-top {
+  background-color: #0020b2;
+  background-image: url(http://localhost/nexergy/assets/images/marketplace.jpg);
+  background-position: center center;
+  background-size: cover
+}
+
+.marketplace-bottom {
+  padding: 14% 14% 14% 14%;
+  box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 5%);
+  border-radius: 15px 15px 15px 70px;
+}
+
+.marketplace-bottom h5 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #64697A;
+  margin-bottom: 18px;
+}
+
+.marketplace-bottom p {
+  color: #64697A;
+  font-size: 15px;
+  word-spacing: 2px;
+}
+
+.marketplace-bottom a {
+  margin: 10px 0;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 15px;
+  color: #4632da;
+  text-decoration: none;
+  font-weight: bold;
 }

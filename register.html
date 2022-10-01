@@ -11,12 +11,14 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 		<title>Nexergy IO</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js">
 		</script>
 	</body>
 </html>
 </head>
 <body>
-<section  class="sticky-top">
+<section class="sticky-top">
 	<nav class="navbar navbar-expand-md navbar-light shadow-sm bg-body ps-md-5 pe-md-4">
 		<div class="container-fluid">
 			<a class="navbar-brand p-0" href="index" title="Home"><img src="assets/images/cropped-website_logo.png" height="40" alt="Brand Image"></a>
@@ -29,10 +31,10 @@
 						<a class="nav-link pe-4 ps-4 pt-3 pb-3" href="index">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link pe-4 ps-4 pt-3 pb-3" href="marketplace" >Marketplace</a>
+						<a class="nav-link pe-4 ps-4 active pt-3 pb-3" href="marketplace" >Marketplace</a>
 					</li>
 					<li class="nav-item ">
-						<a class="nav-link pe-4 ps-4 active pt-3 pb-3"  href="explore">Data Explorer</a>
+						<a class="nav-link pe-4 ps-4  pt-3 pb-3"  href="explore">Data Explorer</a>
 					</li>
 					<li class="nav-item ">
 						<a class="nav-link pe-4 ps-4  pt-3 pb-3"  href="learn-clean-energy">Learn Clean Energy</a>
@@ -46,12 +48,55 @@
 	</nav>
 </section>
 <section>
-	<div style="margin: 50px 0px; text-align: center;">
-		<p style="font-size: 22px; color: #DB4B4B; font-weight: bold; text-align: center; word-spacing: 2px; text-transform: capitalize;">Get solar potential and impact across in a city, state, or zip code</p>
-	</div>
-	<div class="col-md-9 col-12" style="margin: 70px auto; padding: 0 20px;">
-		<form class="marketplace-form">
+	<div style="margin: 50px 0px;">
+		<div style="text-align: center; margin: 60px 0px">
+			<p style="font-size: 22px; color: #DB4B4B; font-weight: bold; text-align: center; margin-bottom: 35px; word-spacing: 2px;">ADD YOUR PROPERTY AND GET THE PERSONALIZED ANALYSIS</p>
 			
+			<a href="marketplace" class="btn secondary-button" style="font-size: 15px;"> Learn How Our Marketplace Works</a>
+		</div>
+	</div>
+	<div class="col-md-9 col-12 m-auto" style="margin-bottom: 90px !important; padding: 0 20px;">
+		<form class="marketplace-form">
+			<div class="mb-4 container">
+				<div class="row">
+					<div class="col-md-2 col-3">
+						<label  class="form-label">First Name :</label>
+					</div>
+					<div class="col-md-10 col-9">
+						<input type="text" class="form-control">
+					</div>
+				</div>
+			</div>
+			<div class="mb-4 container">
+				<div class="row">
+					<div class="col-md-2 col-3">
+						<label  class="form-label">Last Name :</label>
+					</div>
+					<div class="col-md-10 col-9">
+						<input type="text" class="form-control">
+					</div>
+				</div>
+			</div>
+			<div class="mb-4 container">
+				<div class="row">
+					<div class="col-md-2 col-3">
+						<label  class="form-label">Email :</label>
+					</div>
+					<div class="col-md-10 col-9">
+						<input type="email" class="form-control">
+					</div>
+				</div>
+			</div>
+			<div class="mb-4 container">
+				<div class="row">
+					<div class="col-md-2 col-3">
+						<label  class="form-label">Phone Number:</label>
+					</div>
+					<div class="col-md-10 col-9">
+						<input id="phone" type="tel" class="form-control" />
+					</div>
+				</div>
+			</div>
 			<div class="mb-4 container">
 				<div class="row">
 					<div class="col-md-2 col-3">
@@ -59,15 +104,49 @@
 					</div>
 					<div class="col-md-10 col-9">
 						
-						<input type="text" class="form-control" placeholder="Enter a U.S. State, City or Zip Code">
+						<input type="text" class="form-control"  placeholder="Enter a U.S. State, City or Zip Code">
 						<div class="mapouter"><div class="gmap_canvas"><iframe height="300" style="width: 100%;" id="gmap_canvas" src="https://maps.google.com/maps?q=S%20Quincy%20St,%20Arlington,%20VA%2022204,%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br><style>.mapouter{position:relative;text-align:right;width:100%; border: 2px solid #a9a9a9; margin-top: 20px; border-radius: 5px; padding: 10px; overflow: hidden;}</style><a href="https://www.embedgooglemap.net">google maps embed generator</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:100%;}</style></div></div>
 					</div>
 				</div>
 			</div>
-			
+			<div class="mb-4 container">
+				<div class="row">
+					<div class="col-lg-2 col-4">
+						<label  class="form-label">Avarage Monthly Electricity Bill :</label>
+					</div>
+					<div class="col-lg-10 col-8">
+						<select class="form-select">
+							<option value="40">40</option>
+							<option value="45">45</option>
+							<option value="50">50</option>
+							<option value="60">60</option>
+							<option value="70">70</option>
+							<option value="80">80</option>
+							<option value="90">90</option>
+							<option value="100">100</option>
+							<option value="125">125</option>
+							<option value="150">150</option>
+							<option value="175">175</option>
+							<option value="200">200</option>
+							<option value="225">225</option>
+							<option value="250">250</option>
+							<option value="300">300</option>
+							<option value="350">350</option>
+							<option value="400">400</option>
+							<option value="450">450</option>
+							<option value="500">500</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="text-center m-auto col-6 mb-4">
+				<label class="form-check-label" for="exampleCheck1">I AGREE TO THE TERMS OF USE</label>
+				<input type="checkbox" class="form-check-input ms-2" id="exampleCheck1" height="25px" width="25px">
+				
+			</div>
 			
 			<div class="m-auto text-center col-4 mb-4">
-				<button type="submit" name="submit" class="btn secondary-button" style="padding: 5px 15px;">Explore</button>
+				<button type="submit" name="submit" class="btn secondary-button" style="padding: 5px 15px;">Calculate</button>
 			</div>
 		</form>
 	</div>
