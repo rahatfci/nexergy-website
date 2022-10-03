@@ -108,7 +108,7 @@
 				<div class="container text-center">
 					<div class="row">
 						<div class="col-3 ps-md-2 pe-md-2 ps-1 pe-1">
-							<input type="text" class="form-control" name="address" placeholder="Your Address Please">
+							<input type="text" id="txtPlaces" class="form-control" name="address" placeholder="Your Address Please">
 						</div>
 						<div class="col-3 ps-md-2 pe-md-2 ps-1 pe-1">
 							<input type="text" class="form-control" name="biller_id" placeholder="Your Biller Id Please">
@@ -417,6 +417,12 @@
 	<script type="text/javascript">
 		$(".faq .list-group-item").on("click", function(){
 	$(".faq").find(".show").removeClass("show");
+	});
+	</script>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyByJIpkSgcLNXYfY7-w3_XYAaQgcBzGBM8&libraries=places"></script>
+	<script type="text/javascript">
+	google.maps.event.addDomListener(window, 'load', function () {
+	var places = new google.maps.places.Autocomplete(document.getElementById('txtPlaces'));
 	});
 	</script>
 </html>
