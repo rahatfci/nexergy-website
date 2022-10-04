@@ -67,15 +67,15 @@ body {
 }
 
 .about h1 {
-  font-family: sans-serif;
+  font-family: 'Montserrat';
   margin-bottom: 35px;
   font-size: 45px;
 }
 
 .about p {
-  line-height: 35px;
+  line-height: 32px;
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: 'Raleway';
   color: #800505;
 }
 
@@ -321,8 +321,7 @@ body {
   margin-top: 25px;
   text-decoration: none;
   color: #ffffff;
-  font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-weight: bold;
   display: block;
 }
 
@@ -376,11 +375,17 @@ body {
   opacity: 1;
 }
 
-.learn-clean-energy .bottom {
+.bottom {
   margin: 50px auto;
 }
 
-.learn-clean-energy .bottom p {
+.bottom .container {
+  background-color: #fafafa;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.bottom p {
   color: #292926;
   font-family: "Times New Roman", Sans-serif;
   font-size: 22px;
@@ -392,11 +397,11 @@ body {
   word-spacing: 2px;
 }
 
-.learn-about-solar .bottom {
+.bottom {
   margin: 50px auto;
 }
 
-.learn-about-solar .bottom p {
+.bottom p {
   color: #292926;
   font-family: "Times New Roman", Sans-serif;
   font-size: 22px;
@@ -520,15 +525,18 @@ body {
   background-color: #1b252f;
 }
 
+.how .secondary-button {
+  margin-top: 70px;
+}
+
 .how h2 {
   color: #ffffff;
   font-size: 30px;
-  font-weight: 500;
+  font-weight: bold;
   text-transform: capitalize;
   line-height: 1em;
   letter-spacing: 0.5px;
   word-spacing: 5px;
-  -webkit-text-stroke-color: #000;
   stroke: #000;
   margin-bottom: 60px;
 }
@@ -555,7 +563,7 @@ body {
 
 .how h3 {
   font-size: 22px;
-  font-weight: 600;
+  font-weight: bold;
   margin-bottom: 15px;
   color: #ffffff;
 }
@@ -564,7 +572,6 @@ body {
   margin: 0;
   color: rgba(255, 255, 255, 0.55);
   font-size: 16px;
-  font-weight: 300;
   line-height: 1.8em;
 }
 
@@ -603,6 +610,10 @@ body {
   margin-bottom: 0px;
   z-index: 1;
   text-align: center;
+}
+
+.top-section .secondary-button {
+  margin-top: 60px;
 }
 
 .top-section p {
@@ -822,6 +833,7 @@ body {
   padding: 14% 14% 14% 14%;
   box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 5%);
   border-radius: 15px 15px 15px 70px;
+  margin-bottom: 15px;
 }
 
 .marketplace-bottom h5 {
@@ -844,4 +856,847 @@ body {
   color: #4632da;
   text-decoration: none;
   font-weight: bold;
+}
+
+.top-text {
+  padding: 70px 15%;
+}
+
+.faq .list-group {
+  padding: 15px 30px 30px 30px;
+}
+
+.faq p {
+  font-size: 18px;
+  color: #7a7a7a;
+  line-height: 30px;
+  margin: 35px 10%;
+}
+
+.explore-neighbor {
+  text-align: center;
+  margin: 60px 0px;
+}
+
+.explore-neighbor h1 {
+  font-size: 24px;
+  color: #DB4B4B;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.explore-neighbor p {
+  font-size: 18px;
+  color: #7a7a7a;
+  line-height: 30px;
+  margin: 35px 10%;
+}
+
+.footer-desc {
+  background-color: black;
+  padding: 70px 40px;
+}
+
+.faq .secondary-button {
+  margin-top: 20px;
+}
+
+.get-solar-quote {
+  background-color: #dfdfdf;
+  text-align: center;
+  padding: 50px 0px;
+  margin-bottom: 0px;
+}
+
+.calculate p {
+  font-size: 24px;
+  color: #DB4B4B;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.calculate ul {
+  padding: 15px 30px 60px 30px;
+}
+
+.faq h1 {
+  font-size: 24px;
+  color: #DB4B4B;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.faq ul {
+  box-shadow: 0px 5px 30px 0px rgb(0 0 0 / 10%);
+}
+
+.marketplace-top .how h3 {
+  line-height: 50px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  word-spacing: 2px;
+  letter-spacing: .8px;
+  font-size: 28px;
+  width: 75%;
+  display: inline-block;
+}
+
+.solar-price {
+  padding: 70px 0px;
+  text-align: center;
+}
+
+.solar-price h3 {
+  color: #4A5A80;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.solar-price p {
+  line-height: 32px;
+  word-spacing: 2px;
+  width: 65%;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.marketplace-steps {
+  margin: 0px 50px;
+  background-color: #FBF8F7;
+  padding: 100px 40px;
+}
+
+.marketplace-steps .secondary-button {
+  margin-top: 120px;
+}
+
+.resources {
+  margin: 60px 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.aspects {
+  padding: 0px 90px 80px 90px;
+}
+
+.marketplace-steps .col-md-2 {
+  background-color: #4A5A80;
+  text-align: center;
+  padding: 35px 0px
+}
+
+.marketplace-steps .col-md-10 {
+  padding-left: 30px;
+}
+
+.marketplace-steps .row {
+  margin-bottom: 35px;
+}
+
+.marketplace-steps h1 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  font-family: 'Montserrat'
+}
+
+.marketplace-steps p {
+  word-spacing: 3px;
+}
+
+.explore-title {
+  margin: 50px 0px;
+  text-align: center;
+}
+
+.explore-title p {
+  font-size: 22px;
+  color: #DB4B4B;
+  font-weight: bold;
+  text-align: center;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.address {
+  margin: 70px auto;
+  padding: 0 20px;
+}
+
+.explore-title a {
+  font-size: 15px;
+}
+
+.about .primary-button {
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+.about h2 {
+  color: #DB4B4B;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-family: 'Montserrat';
+}
+
+.bottom .col-md-4 {
+  margin-top: 25px;
+}
+
+.solar-topics {
+  padding-top: 75px;
+  margin: 0px 50px;
+}
+
+.solar-panel-system h4 {
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.solar-panel-system h5 {
+  color: #762323;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 80px;
+}
+
+.solar-panel-system h6 {
+  color: black;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.highlight {
+  background-color: #6C7C69;
+  padding: 30px;
+  margin: 60px 0;
+  color: white;
+}
+
+.highlight h2 {
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+.highlight p {
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+  padding-bottom: 50px;
+}
+
+.solar-section-img-por {
+  float: right;
+  height: 250px;
+}
+
+.solar-section-img-lan {
+  float: right;
+}
+
+.user-info {
+  padding: 10px 0;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width:480px) {
+  .primary-button {
+    margin-top: 0px;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  .secondary-button {
+    margin-top: 0px;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  .elegent-button {
+    font-size: 12px;
+    padding: 15px 30px 15px 30px
+  }
+
+  .highlight {
+    padding: 20px 15px;
+    margin: 50px 0;
+  }
+
+  .highlight h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .highlight p {
+    line-height: 22px;
+    padding-bottom: 40px;
+  }
+
+  .solar-section-img-por {
+    height: 170px;
+  }
+
+  .solar-section-img-lan {
+    height: 90px;
+  }
+
+  .solar-panel-system h4 {
+    font-size: 20px;
+  }
+
+  .solar-panel-system h5 {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .solar-panel-system h6 {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+
+  .solar-component-list svg {
+    height: 50px;
+    width: 50px;
+  }
+
+  .solar-component-list .col-2 {
+    padding-left: 0;
+    margin-left: -5px;
+  }
+
+  .learn-clean-energy .header {
+    border-radius: 0 0 50px 50px;
+  }
+
+  .learn-clean-energy img {
+    width: 170px;
+    margin-bottom: 20px;
+  }
+
+  .learn-clean-energy .main {
+    padding: 15px 35px 12px 35px;
+  }
+
+  .learn-clean-energy .main p {
+    font-size: 11px;
+  }
+
+  .learn-clean-energy .content {
+    height: 220px;
+  }
+
+  .learn-clean-energy .description {
+    font-size: 12px;
+    padding-right: 8px;
+  }
+
+  .learn-clean-energy .title {
+    font-size: 15px;
+  }
+
+  .slider-caption .s1 {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .slider-caption .s2 {
+    font-size: 20px;
+  }
+
+  .slider-caption .s3 {
+    font-size: 15px;
+  }
+
+  .about .primary-button {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .address {
+    margin: 50px auto;
+    padding: 0 15px;
+  }
+
+  .marketplace-form {
+    border: 2px solid #4A5A80;
+    border-radius: 15px;
+    padding: 25px 0px;
+  }
+
+  .marketplace-form label {
+    font-size: 10px;
+  }
+
+  .address .form-control {
+    font-size: .7rem !important;
+  }
+
+  .explore-title {
+    margin: 40px 0px;
+    text-align: center;
+  }
+
+  .address .mapouter {
+    padding: 5px;
+  }
+
+  .address .secondary-button {
+    margin-top: 15px;
+  }
+
+  .explore-title p {
+    font-size: 18px;
+  }
+
+  .aspects {
+    margin: 10px;
+    padding: 0px;
+  }
+
+  .marketplace-steps .col-md-2 {
+    margin-bottom: 30px;
+  }
+
+  .marketplace-bottom {
+    padding: 6%;
+    margin-bottom: 30px;
+    border-radius: 10px 10px 30px 10px
+  }
+
+  .marketplace-bottom p {
+    font-size: 12px;
+  }
+
+  .resources {
+    font-size: 22px;
+    margin: 50px 15px;
+    line-height: 30px;
+  }
+
+  .marketplace-top .how h3 {
+    font-size: 22px;
+    line-height: 35px;
+    width: 100%;
+    word-spacing: 1px;
+  }
+
+  .marketplace-steps .secondary-button {
+    margin-top: 30px;
+  }
+
+  .marketplace-steps {
+    margin: 0 15px;
+    padding: 40px 25px;
+  }
+
+  .marketplace-steps h1 {
+    font-size: 17px;
+    margin-bottom: 20px;
+    line-height: 28px;
+  }
+
+  .marketplace-steps p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .marketplace-top .how .row h3 {
+    margin-bottom: 10px;
+  }
+
+  .solar-price {
+    padding: 50px 15px;
+  }
+
+  .solar-price h3 {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .solar-price p {
+    line-height: 26px;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .marketplace-top .secondary-button {
+    margin-top: 20px;
+  }
+
+  .solar-price .secondary-button {
+    margin-top: 20px;
+  }
+
+  .faq h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .faq ul {
+    margin: 10px;
+  }
+
+  .faq .list-group-item {
+    font-size: 12px;
+  }
+
+  .faq .list-group {
+    padding: 14px;
+  }
+
+  .faq a {
+    padding: 10px 15px;
+  }
+
+  .faq .card {
+    padding: 15px 10px 5px 25px;
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .faq p {
+    font-size: 12px;
+    line-height: 25px;
+    margin: 25px 3%;
+  }
+
+  .top-text {
+    padding: 70px 5%;
+  }
+
+  .calculate {
+    margin: 35px auto;
+  }
+
+  .calculate ul {
+    padding: 15px 10px 30px 10px
+  }
+
+  .calculate a {
+    font-size: 10px;
+  }
+
+  .arrow-icon {
+    height: 15px;
+  }
+
+  .calculate .list-group-item {
+    padding: .2rem .2rem;
+  }
+
+  .calculate p {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .get-solar-quote {
+    padding-top: 35px;
+    padding-bottom: 25px;
+  }
+
+  .top-text h1 {
+    line-height: 2rem;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .top-section .secondary-button {
+    margin-top: 20px;
+  }
+
+  .top-section p {
+    font-size: 12px;
+  }
+
+  .how .secondary-button {
+    margin-top: 20px;
+  }
+
+  .how {
+    padding-bottom: 40px;
+  }
+
+  .how h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .how h3 {
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+
+  .how p {
+    font-size: 12px;
+  }
+
+  .how svg {
+    margin-bottom: 20px;
+    padding: 5px;
+    height: 65px;
+  }
+
+  .slope svg {
+    height: 86px;
+  }
+
+  .user-info .secondary-button {
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+
+  .user-info input {
+    font-size: 12px;
+  }
+
+  .explore-neighbor h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .explore-neighbor p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 10px 2%;
+    word-spacing: 1px;
+  }
+
+  .learn-about-solar .header a {
+    font-size: 15px;
+    margin-left: 50px;
+  }
+
+  .featured-on p {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .footer-desc {
+    padding: 70px 10px;
+  }
+
+  .site-map {
+    padding: 10px 15px;
+  }
+
+  .explore-title a {
+    font-size: 10px;
+  }
+
+  .about h1 {
+    font-size: 30px;
+  }
+
+  .about p {
+    line-height: 25px;
+    font-size: 14px;
+    padding: 0px 15px;
+  }
+
+  .learn-clean-energy .header .s1 {
+    font-size: 30px;
+  }
+
+  .learn-clean-energy .header .s2 {
+    font-size: 15px;
+  }
+
+  .learn-clean-energy .get-started {
+    font-size: 14px;
+    padding: 10px 0px;
+  }
+
+  .bottom .col-md-4 {
+    margin-top: 0px
+  }
+
+  .learn-about-solar .header {
+    margin: 90px 20px -10px 20px;
+  }
+
+  .solar-explained {
+    margin: 0 20px;
+    padding: 50px 20px 20px 20px;
+  }
+
+  .solar-explained h1 {
+    margin-bottom: 30px;
+    font-size: 22px;
+  }
+
+  .solar-explained p {
+    line-height: 25px;
+    word-spacing: 3px;
+    font-size: 12px;
+  }
+
+  .solar-topics {
+    padding-top: 0px;
+    margin: 0px 25px;
+  }
+
+  .side-nav {
+    margin: 35px 0px;
+    padding: 40px 0px 10px 0px;
+  }
+
+  .benifit-solar-img {
+    width: 100%;
+  }
+
+  .side-nav a, li {
+    font-size: 12px;
+  }
+
+  .side-nav .list-group-item {
+    padding: .5rem .75rem;
+    width: 70%;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 13px;
+    padding: 12px 20px !important
+  }
+
+  .navbar {
+    padding: 12px 5px !important;
+  }
+
+  .solar-panel-system h1 {
+    font-size: 20px;
+    margin: 30px 0;
+  }
+
+  .solar-panel-system p {
+    letter-spacing: unset;
+    line-height: 22px;
+    word-spacing: 1.5px;
+    font-size: 12px;
+  }
+
+  .solar-panel-system ul {
+    margin: 0 auto;
+    padding-left: 0;
+  }
+
+  .solar-panel-system li {
+    font-size: 11px;
+    line-height: 22px;
+    letter-spacing: unset;
+    margin-left: 1.6rem;
+  }
+
+  .solar-component-list li {
+    margin-bottom: 25px;
+  }
+
+  .user-info {
+    padding: 15px 0;
+  }
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width:481px) and (max-width:767px) {
+  .marketplace-steps .col-md-2 {
+    margin-bottom: 30px;
+  }
+
+  .navbar {
+    padding: 12px 5px !important;
+  }
+
+  .benifit-solar-img {
+    width: 100%;
+  }
+
+  .solar-component-list svg {
+    height: 70px;
+    width: 70px;
+  }
+
+  .about p {
+    margin-bottom: 40px;
+  }
+
+  .marketplace-steps {
+    margin: 0px 20px;
+    padding: 75px 35px
+  }
+
+  .marketplace-steps h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 28px;
+  }
+
+  .marketplace-steps p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .side-nav {
+    padding-right: 0;
+  }
+
+  .user-info {
+    padding: 15px 0;
+  }
+
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width:768px) and (max-width:1024px) {
+  .navbar-nav .nav-link {
+    font-size: .8rem;
+    white-space: nowrap;
+  }
+
+  .user-info {
+    padding: 15px 0;
+  }
+
+  .navbar {
+    padding: 12px 5px !important;
+  }
+
+  .benifit-solar-img {
+    width: 100%;
+  }
+
+  .side-nav {
+    padding-right: 0px;
+  }
+
+  .solar-component-list svg {
+    height: 70px;
+    width: 70px;
+  }
+
+  .about p {
+    margin-bottom: 40px;
+  }
+
+  .top-section h1 {
+    line-height: 3rem;
+  }
+
+  .slope svg {
+    height: 85px;
+  }
+
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width:1025px) {
 }
